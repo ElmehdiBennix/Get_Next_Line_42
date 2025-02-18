@@ -28,7 +28,7 @@ Get Next Line is a project that involves programming a function to read a line f
 1. Clone the repository:
    ```sh
    git clone https://github.com/ElmehdiBennix/Get_Next_Line_42.git
-   cd get_next_line
+   cd Get_Next_Line_42
    ```
 2. Compile with a custom buffer size:
    ```sh
