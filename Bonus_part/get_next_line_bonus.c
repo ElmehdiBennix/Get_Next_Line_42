@@ -97,7 +97,7 @@ static char	*ft_readit(int fd, char *buffer)
 
 char	*get_next_line(int fd)
 {
-	static char	*buffer[OPEN_MAX];
+	static char	*buffer[FOPEN_MAX];
 	char		*row;
 
 	if (fd < 0 || BUFFER_SIZE <= 0)
